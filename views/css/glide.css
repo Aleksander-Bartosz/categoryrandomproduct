@@ -1,0 +1,20 @@
+#glide .glide__slide .js-product-miniature {
+  width: 100% !important;
+}
+
+.glide__arrows {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translate(0px, -50%);
+}
+.glide__arrow {
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px;
+}
